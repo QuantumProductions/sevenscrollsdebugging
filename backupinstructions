@@ -1,0 +1,4 @@
+
+
+adb backup -f ~/data.ab -noapk com.venbrux.seven_scrolls
+java -jar android-backup-extractor/android-backup-extractor-20180521-bin/abe.jar unpack ~/data.ab ~/foo.tar s
